@@ -1,0 +1,2 @@
+# DesignPattern
+TypeScriptでデザインパターンを勉強中です
