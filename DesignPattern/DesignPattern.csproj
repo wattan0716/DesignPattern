@@ -5,6 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\ts\CommandPattern\Command.ts" />
+    <Content Remove="wwwroot\ts\CommandPattern\CommandMain.ts" />
+    <Content Remove="wwwroot\ts\CommandPattern\Invoker.ts" />
+    <Content Remove="wwwroot\ts\CommandPattern\Receiver.ts" />
+    <Content Remove="wwwroot\ts\CommandPattern\SaveCommand.ts" />
+    <Content Remove="wwwroot\ts\CommandPattern\UpdateCommand.ts" />
     <Content Remove="wwwroot\ts\Main.ts" />
     <Content Remove="wwwroot\ts\Singleton\SingletonMain.ts" />
     <Content Remove="wwwroot\ts\Singleton\StateManager.ts" />
