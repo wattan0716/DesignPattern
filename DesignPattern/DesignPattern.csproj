@@ -12,6 +12,10 @@
     <Content Remove="wwwroot\ts\CommandPattern\SaveCommand.ts" />
     <Content Remove="wwwroot\ts\CommandPattern\UpdateCommand.ts" />
     <Content Remove="wwwroot\ts\Main.ts" />
+    <Content Remove="wwwroot\ts\ObserverPattern\ConcreteSubject.ts" />
+    <Content Remove="wwwroot\ts\ObserverPattern\Observer.ts" />
+    <Content Remove="wwwroot\ts\ObserverPattern\ObserverMain.ts" />
+    <Content Remove="wwwroot\ts\ObserverPattern\Subject.ts" />
     <Content Remove="wwwroot\ts\Singleton\SingletonMain.ts" />
     <Content Remove="wwwroot\ts\Singleton\StateManager.ts" />
     <Content Remove="wwwroot\ts\VisitorPattern\Employee.ts" />
