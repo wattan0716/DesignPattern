@@ -1,0 +1,27 @@
+[
+  {
+    "outputFileName": "wwwroot/js/bundle.min.js",
+    "inputFiles": [
+      "wwwroot/ts/Singleton/StateManager.js",
+      "wwwroot/ts/Singleton/SingletonMain.js",
+      "wwwroot/ts/VisitorPattern/Visitor.js",
+      "wwwroot/ts/VisitorPattern/IEmployee.js",
+      "wwwroot/ts/VisitorPattern/Employee.js",
+      "wwwroot/ts/VisitorPattern/Manager.js",
+      "wwwroot/ts/VisitorPattern/Reporter.js",
+      "wwwroot/ts/VisitorPattern/Worker.js",
+      "wwwroot/ts/VisitorPattern//VisitorMain.js",
+      "wwwroot/ts/CommandPattern/Command.js",
+      "wwwroot/ts/CommandPattern/SaveCommand.js",
+      "wwwroot/ts/CommandPattern/UpdateCommand.js",
+      "wwwroot/ts/CommandPattern/Invoker.js",
+      "wwwroot/ts/CommandPattern/Receiver.js",
+      "wwwroot/ts/CommandPattern/CommandMain.js"
+    ],
+    "minify": {
+      "enabled": false,
+      "renameLocals": true
+    },
+    "sourceMap": true
+  }
+]
