@@ -11,6 +11,9 @@
     <Content Remove="wwwroot\ts\CommandPattern\Receiver.ts" />
     <Content Remove="wwwroot\ts\CommandPattern\SaveCommand.ts" />
     <Content Remove="wwwroot\ts\CommandPattern\UpdateCommand.ts" />
+    <Content Remove="wwwroot\ts\FactoryPattern\FactoryMain.ts" />
+    <Content Remove="wwwroot\ts\FactoryPattern\Product.ts" />
+    <Content Remove="wwwroot\ts\FactoryPattern\ProductFactory.ts" />
     <Content Remove="wwwroot\ts\Main.ts" />
     <Content Remove="wwwroot\ts\ObserverPattern\ConcreteSubject.ts" />
     <Content Remove="wwwroot\ts\ObserverPattern\Observer.ts" />
