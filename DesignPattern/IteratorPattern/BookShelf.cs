@@ -1,11 +1,12 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace DesignPattern.IteratorPattern
 {
-    public class BookShelf : IAggregate
+    public class BookShelf : IEnumerable<Book>
     {
         private readonly List<Book> books = new List<Book>();
 
@@ -21,9 +22,14 @@ namespace DesignPattern.IteratorPattern
             return books[index];
         }
 
-        public IIterator GetIterator()
+        public IEnumerator<Book> GetEnumerator()
         {
             return new BookShelfIterator(this);
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
         }
     }
 }

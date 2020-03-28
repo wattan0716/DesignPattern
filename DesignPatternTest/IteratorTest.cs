@@ -14,10 +14,8 @@ namespace DesignPatternTest
             bookShelf.AppendBook(new Book { Name = "TOEIC TEST" });
             bookShelf.AppendBook(new Book { Name = "CARRER BOOK" });
 
-            var iterator = bookShelf.GetIterator();
-            while (iterator.HasNext)
+            foreach(var book in bookShelf)
             {
-                var book = (Book)iterator.Next();
                 Console.WriteLine(book.Name);
             }
         }

@@ -1,2 +1,2 @@
 # DesignPattern
-TypeScriptでデザインパターンを勉強中です
+TypeScriptとC#でデザインパターンを勉強中です
